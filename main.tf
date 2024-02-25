@@ -1,7 +1,5 @@
 locals {
-    env = "prd"
     name = "onyze-k8s"
-    key_name = "prd-onyze-k8s"
     machine_type = "b3c.4x16"
     region = "sa-east-1"
     worker_count = 3
